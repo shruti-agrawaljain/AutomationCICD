@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.236 s <<< FAILURE! - in cucumber.TestNGTestRunner
+cucumber.TestNGTestRunner.runScenario["Error Validation for Login Page", "Error Validation"](1)  Time elapsed: 3.333 s  <<< FAILURE!
+java.lang.AssertionError: expected [] but found [Incorrect email password.]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at rahulshettyacademy.cucumber.DataDefinitionImpl.message_should_be_displayed(DataDefinitionImpl.java:74)
+	at ✽."Incorrect email password." message should be displayed(file:///C:/Users/Shruti%20Agrawal/eclipse-workspace/SeleniumFrameworkDesign/src/test/java/cucumber/ErrorValidation.feature:8)
+

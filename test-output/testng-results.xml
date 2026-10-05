@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-04T15:46:08 IST" name="Default suite" finished-at="2026-10-04T15:47:58 IST" duration-ms="110323">
+    <groups>
+      <group name="PurchaseHash">
+        <method signature="HashMapForWebsite.submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" name="submitOrder" class="rahulshettyacademy.tests.HashMapForWebsite"/>
+        <method signature="HashMapForWebsite.orderHistoryPage(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" name="orderHistoryPage" class="rahulshettyacademy.tests.HashMapForWebsite"/>
+      </group> <!-- PurchaseHash -->
+    </groups>
+    <test started-at="2026-10-04T15:46:08 IST" name="Default test" finished-at="2026-10-04T15:47:58 IST" duration-ms="110323">
+      <class name="rahulshettyacademy.tests.HashMapForWebsite">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:46:08 IST" name="launchApplication" finished-at="2026-10-04T15:46:56 IST" duration-ms="47967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:46:56 IST" name="submitOrder" data-provider="getData" finished-at="2026-10-04T15:47:04 IST" duration-ms="7301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mail=shruti16@gmail.com, pass=Shruti@123, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endOfApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:04 IST" name="endOfApplication" finished-at="2026-10-04T15:47:04 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:04 IST" name="launchApplication" finished-at="2026-10-04T15:47:17 IST" duration-ms="13284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:17 IST" name="submitOrder" data-provider="getData" finished-at="2026-10-04T15:47:25 IST" duration-ms="7492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mail=rahulacademy11@gmail.com, pass=Rahul@123, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="endOfApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:25 IST" name="endOfApplication" finished-at="2026-10-04T15:47:25 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:25 IST" name="launchApplication" finished-at="2026-10-04T15:47:36 IST" duration-ms="10614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryPage(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:36 IST" name="orderHistoryPage" data-provider="getData" finished-at="2026-10-04T15:47:40 IST" depends-on-methods="rahulshettyacademy.tests.HashMapForWebsite.submitOrder" duration-ms="4553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mail=shruti16@gmail.com, pass=Shruti@123, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryPage -->
+        <test-method is-config="true" signature="endOfApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:40 IST" name="endOfApplication" finished-at="2026-10-04T15:47:41 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:41 IST" name="launchApplication" finished-at="2026-10-04T15:47:55 IST" duration-ms="14073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryPage(java.util.HashMap)[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:55 IST" name="orderHistoryPage" data-provider="getData" finished-at="2026-10-04T15:47:58 IST" depends-on-methods="rahulshettyacademy.tests.HashMapForWebsite.submitOrder" duration-ms="3474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{mail=rahulacademy11@gmail.com, pass=Rahul@123, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryPage -->
+        <test-method is-config="true" signature="endOfApplication()[pri:0, instance:rahulshettyacademy.tests.HashMapForWebsite@198b6731]" started-at="2026-10-04T15:47:58 IST" name="endOfApplication" finished-at="2026-10-04T15:47:58 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endOfApplication -->
+      </class> <!-- rahulshettyacademy.tests.HashMapForWebsite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
