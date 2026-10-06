@@ -58,5 +58,7 @@ public class ProductCatalogue extends AbstractComponent{
 		waitForElementToAppear(spinnerWait);
 		waitForElementToDisappear(spinnerWait);
 	}
+
+	//This is for Product Catelogue in that we will see how many products are there.
 	
 }
