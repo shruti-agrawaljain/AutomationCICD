@@ -38,4 +38,6 @@ public class CartPage extends AbstractComponent{
 		checkOutBtn.click();
 		return new CheckoutPage(driver);
 	}
+
+	//This page is for CartPage here we can see options like Checkout page.
 }
